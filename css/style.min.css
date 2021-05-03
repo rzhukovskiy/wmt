@@ -1,0 +1,206 @@
+/** reset **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.3rem;
+	margin: 30px;
+	text-align: center;
+}
+h3 {
+    font-size: 1.1rem;
+}
+h4 {
+    font-size: .9rem;
+}
+h5 {
+    font-size: .8rem;
+}
+body, html {
+    height: 100%;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #343a40;
+}
+@media screen and (min-width: 900px) {
+	.head-image {
+		float: left;
+	}
+}
+.container {
+	clear: both;
+    padding-left: 1rem;
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    font: 14px Tahoma, sans-serif;
+    position: fixed;
+    padding: .5rem 0;
+    width: 100%;
+	animation-name: menu;
+	animation-duration: 1s;
+}
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-nav .nav-link {
+    color: #aaa;
+    padding-right: 1rem;
+}
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+	text-decoration: underline;
+}
+.navbar-nav .active>.nav-link {
+    color: #fff;
+}
+.bg-dark {
+    background-color: #343a40;
+}
+.content {
+    padding-bottom: 1.2rem;
+    -ms-flex: 1;
+    flex: 1;
+}
+.head-block {
+    background-color: #343a40;
+	color: #fff;
+    font: 50px "Roboto Condensed", sans-serif;
+	min-height: 200px;
+    padding: 100px;
+}
+.head-image {
+	margin-right: 100px;
+	width: 200px;
+}
+.head-text {
+    margin-top: 30px;
+}
+.roles {
+	font-size: 24px;
+    padding: 50px;
+    list-style: none;
+}
+.roles li {
+    float: left;
+	margin: 0 10px;
+}
+.timeline {
+	padding: 50px;
+}
+.timeline .description {
+	border-left: 1px solid #ddd;
+	clear: right;
+	display: block;
+	margin-left: 100px;
+	padding: 50px;
+}
+.timeline .time {
+	display: block;
+    float: left;
+	padding-top: 50px;
+}
+.city {
+	padding: 50px 100px;
+}
+.city h3 {
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.city img {
+	border: 2px solid #ddd;
+    margin: 0 20px;
+    width: 50%;
+}
+#feedback {
+	margin: 100px;
+}
+#feedback input {
+	display: block;
+	margin: 20px 0;
+}
+#feedback textarea {
+	height: 100px;
+}
+.posts {
+	margin: 80px;
+}
+.post {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding: 20px;
+}
+.posts .email {
+	font-weight: bold;
+}
+.social {
+    margin: -45px 0 100px 0;
+    position: relative;
+}
+.social-icon {
+    float: right;
+    margin: 0 20px;
+    width: 40px;
+}
+
+@keyframes menu {
+  0%   {left:800px;}
+  100% {left:0px;}
+}
