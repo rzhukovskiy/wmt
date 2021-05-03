@@ -54,13 +54,13 @@
             <p>© Jukovskii.com</p>
             <div class="social">
                 <a href="https://www.facebook.com/shtall">
-                    <img class="social-icon" id="facebook" src="/img/facebook.png" />
+                    <img alt="fb-icon" class="social-icon" id="facebook" src="/img/facebook.png" />
                 </a>
                 <a href="https://twitter.com/zhukovskey">
-                    <img class="social-icon" id="twitter" src="/img/twitter.png" />
+                    <img alt="twitter-icon" class="social-icon" id="twitter" src="/img/twitter.png" />
                 </a>
                 <a href="https://www.instagram.com/greyshtall/">
-                    <img class="social-icon" id="instagram" src="/img/instagram.png" />
+                    <img alt="instagram-icon" class="social-icon" id="instagram" src="/img/instagram.png" />
                 </a>
             </div>
         </div>

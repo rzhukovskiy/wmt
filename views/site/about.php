@@ -3,7 +3,7 @@
  */
 ?>
 <div class="head-block">
-    <img class="head-image" src="/img/me.png" />
+    <img alt="Roman Jukovskii" class="head-image" src="/img/me.png" />
     <div class="head-text">
         <p class="name">Hello,&nbsp;I&nbsp;am Roman</p>
         <ul class="roles">

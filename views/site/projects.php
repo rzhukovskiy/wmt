@@ -3,7 +3,7 @@
  */
 ?>
 <div class="head-block">
-    <img class="head-image" src="/img/juddy.png" />
+    <img alt="Juddy.biz" class="head-image" src="/img/juddy.png" />
     <div class="head-text">
         <p class="name">Projects</p>
         <ul class="roles">

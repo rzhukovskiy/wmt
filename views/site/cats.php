@@ -3,7 +3,7 @@
  */
 ?>
 <div class="head-block">
-    <img class="head-image" src="/img/cats.png" />
+    <img alt="Punsh and Kaiser" class="head-image" src="/img/cats.png" />
     <div class="head-text">
         <p class="name">Meet&nbsp;Punsh and&nbsp;Kaiser</p>
         <ul class="roles">
